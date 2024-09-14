@@ -58,7 +58,6 @@
 
 This project allows users to check the registration status of car insurance by uploading a CSV file containing car plate numbers. The system sends the data to a government API and retrieves the verification result.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
@@ -66,7 +65,6 @@ This project allows users to check the registration status of car insurance by u
 * [![Pandas][Pandas-shield]][Pandas-url]
 * [![Requests][Requests-shield]][Requests-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -89,7 +87,7 @@ Install Python packages
 sh
 Copy code
 pip install -r requirements.txt
-<p align="right">(<a href="#readme-top">back to top</a>)</p> <!-- USAGE EXAMPLES -->
+<!-- USAGE EXAMPLES -->
 Usage
 Place your MV_Insurance.csv file in the project directory.
 Run the Python script to check registration status:
@@ -97,25 +95,24 @@ sh
 Copy code
 python check_registration.py
 The results will be saved in a registration_results.csv file.
-<p align="right">(<a href="#readme-top">back to top</a>)</p> <!-- ROADMAP -->
+<!-- ROADMAP -->
 Roadmap
  Feature 1: Add support for more data formats.
  Feature 2: Automate CSV upload through UI.
  Feature 3: Improve error handling for API requests.
-<p align="right">(<a href="#readme-top">back to top</a>)</p> <!-- CONTRIBUTING -->
+<!-- CONTRIBUTING -->
 Contributing
 Contributions are what make the open source community such an amazing place to learn and create. Any contributions you make are greatly appreciated.
 
-Fork the Project
+> Fork the Project
 Create your Feature Branch (git checkout -b feature/AmazingFeature)
 Commit your Changes (git commit -m 'Add some AmazingFeature')
 Push to the Branch (git push origin feature/AmazingFeature)
 Open a Pull Request
-<p align="right">(<a href="#readme-top">back to top</a>)</p> <!-- LICENSE -->
+<!-- LICENSE -->
 License
 Distributed under the MIT License. See LICENSE.txt for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 Project Link: <a href="https://github.com/avict18/car-insurance-id">https://github.com/avict18/car-insurance-id</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 
