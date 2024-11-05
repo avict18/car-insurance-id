@@ -1,6 +1,9 @@
 import requests
 import pandas as pd
 from datetime import datetime
+import tkinter as tk
+from tkinter import filedialog
+from tkinter import messagebox
 
 url = "https://tiramis.tira.go.tz/covernote/api/public/portal/verify"
 
@@ -26,6 +29,16 @@ def format_timestamp(timestamp):
     dt_obj = datetime.utcfromtimestamp(timestamp / 1000)
     return dt_obj.strftime('%d %b, %Y %H:%M:%S %p')
 
+def choose_file():
+    file_path = filedialog.askopenfilename(
+        title="Locate the csv file.",
+        filetypes=[("CSV Files", ".csv")]
+        )
+    if file_path:
+        file_label.config(text=f"Selected: {file_path}")
+    else:
+        file_label.config(text="No file selected")
+            
 def check_registration(plate_number):
     data = {
         "paramType": 2,
@@ -54,7 +67,7 @@ def check_registration(plate_number):
     else:
         return {'Plate': plate_number, 'Error': f"Failed to check {plate_number}"}
 
-data = pd.read_csv('MV_Insurance.csv')
+data = pd.read_csv(f'{file_path}')
 carplates = data['Reg No'].tolist()
 
 results = []
@@ -65,3 +78,15 @@ for plate in carplates:
 
 output = pd.DataFrame(results)
 output.to_csv('registration_results_filtered.csv', index=False)
+
+windwow = tk.Tk()
+window.title("Car insurance id")
+window.geometry("400x300")
+
+choose_file_button = tk.button(rooe, text="Choose File", command=choose_file)
+choose_file_button.pack(pady=20)
+
+file_label = tk.Label(root,text="No file selected", wraplength=350)
+file_path.pack()
+
+window.mainloop()

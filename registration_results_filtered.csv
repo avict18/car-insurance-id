@@ -1,26 +1,26 @@
-Plate,Error,Issue Date,Start Date,End Date
-T691CSN,No valid data found,,,
-T248CTS,,"25 Apr, 2024 10:22:27 AM","25 Apr, 2024 10:22:10 AM","24 Apr, 2025 20:59:59 PM"
-T288DKF,,"15 Sep, 2023 11:35:26 AM","15 Sep, 2023 11:35:02 AM","14 Sep, 2024 20:59:59 PM"
-T913CNN,,"27 Oct, 2023 10:08:02 AM","27 Oct, 2023 10:07:52 AM","26 Oct, 2024 20:59:59 PM"
-T973DEX,No valid data found,,,
-T641DEY,,"10 Jan, 2024 14:56:13 PM","10 Jan, 2024 14:56:04 PM","09 Jan, 2025 20:59:59 PM"
-T739AKT,No valid data found,,,
-T581ARC,,"11 May, 2024 08:22:58 AM","11 May, 2024 08:22:45 AM","10 May, 2025 20:59:59 PM"
-T189CMF,,"07 Nov, 2023 09:00:19 AM","07 Nov, 2023 09:00:06 AM","06 Nov, 2024 20:59:59 PM"
-T923CMW,No valid data found,,,
-T174CMF,,"13 Mar, 2024 09:38:52 AM","13 Mar, 2024 09:38:41 AM","12 Mar, 2025 20:59:59 PM"
-T211BXQ,No valid data found,,,
-T106DCY,,"16 Dec, 2023 08:13:00 AM","16 Dec, 2023 08:12:42 AM","15 Dec, 2024 20:59:59 PM"
-T512DUU,No valid data found,,,
-T594CBU,,"02 Oct, 2023 11:18:16 AM","02 Oct, 2023 11:18:09 AM","01 Oct, 2024 20:59:59 PM"
-T403DWR,No valid data found,,,
-T654APB,,"30 May, 2024 12:47:42 PM","30 May, 2024 12:47:27 PM","29 May, 2025 20:59:59 PM"
-T152DYB,,"04 Apr, 2024 08:52:43 AM","04 Apr, 2024 08:52:38 AM","03 Apr, 2025 20:59:59 PM"
-T151DYB,No valid data found,,,
-T193CMF,,"14 Jun, 2024 08:46:13 AM","14 Jun, 2024 08:44:35 AM","13 Jun, 2025 20:59:59 PM"
-T981DGG,No valid data found,,,
-T227DLL,No valid data found,,,
-T359DLP,No valid data found,,,
-T763DTZ,No valid data found,,,
-T472CCH,,"29 May, 2024 07:15:36 AM","29 May, 2024 07:15:29 AM","28 May, 2025 20:59:59 PM"
+Plate,Issue Date,Start Date,End Date,Error
+T691CSN,,,,No valid data found
+T248CTS,"25 Apr, 2024 10:22:27 AM","25 Apr, 2024 10:22:10 AM","24 Apr, 2025 20:59:59 PM",
+T288DKF,"01 Oct, 2024 15:54:41 PM","01 Oct, 2024 15:54:35 PM","30 Sep, 2025 20:59:59 PM",
+T913CNN,"27 Oct, 2023 10:08:02 AM","27 Oct, 2023 10:07:52 AM","26 Oct, 2024 20:59:59 PM",
+T973DEX,,,,No valid data found
+T641DEY,"10 Jan, 2024 14:56:13 PM","10 Jan, 2024 14:56:04 PM","09 Jan, 2025 20:59:59 PM",
+T739AKT,,,,No valid data found
+T581ARC,"11 May, 2024 08:22:58 AM","11 May, 2024 08:22:45 AM","10 May, 2025 20:59:59 PM",
+T189CMF,"07 Nov, 2023 09:00:19 AM","07 Nov, 2023 09:00:06 AM","06 Nov, 2024 20:59:59 PM",
+T923CMW,,,,No valid data found
+T174CMF,"13 Mar, 2024 09:38:52 AM","13 Mar, 2024 09:38:41 AM","12 Mar, 2025 20:59:59 PM",
+T211BXQ,,,,No valid data found
+T106DCY,"16 Dec, 2023 08:13:00 AM","16 Dec, 2023 08:12:42 AM","15 Dec, 2024 20:59:59 PM",
+T512DUU,"20 Sep, 2024 07:40:24 AM","20 Sep, 2024 07:40:05 AM","19 Sep, 2025 20:59:59 PM",
+T594CBU,,,,No valid data found
+T403DWR,,,,No valid data found
+T654APB,"30 May, 2024 12:47:42 PM","30 May, 2024 12:47:27 PM","29 May, 2025 20:59:59 PM",
+T152DYB,"04 Apr, 2024 08:52:43 AM","04 Apr, 2024 08:52:38 AM","03 Apr, 2025 20:59:59 PM",
+T151DYB,,,,No valid data found
+T193CMF,"14 Jun, 2024 08:46:13 AM","14 Jun, 2024 08:44:35 AM","13 Jun, 2025 20:59:59 PM",
+T981DGG,,,,No valid data found
+T227DLL,,,,No valid data found
+T359DLP,,,,No valid data found
+T763DTZ,,,,No valid data found
+T472CCH,"29 May, 2024 07:15:36 AM","29 May, 2024 07:15:29 AM","28 May, 2025 20:59:59 PM",
